@@ -23,8 +23,8 @@ public class Stream {
 		
 		//
 		Optional<String> name = names.stream().map(s -> s.toUpperCase())    // Intermediaire operation
-											  .filter(s -> s.length() > 5)  // Intermediaire operation
-											  .findAny();                   // Terminal operation
+						      .filter(s -> s.length() > 5)  // Intermediaire operation
+						      .findAny();                   // Terminal operation
 		
 		//
 		if(name.isPresent())
