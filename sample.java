@@ -28,7 +28,7 @@ public class Stream {
 		
 		//
 		if(name.isPresent())
-			System.out.println(name);
+			System.out.println(name.get());
 		else
 			System.out.println("NONE");
 
